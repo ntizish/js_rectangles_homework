@@ -1,0 +1,46 @@
+.box {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin: 20px;
+}
+
+.blue {
+  background: blue;
+}
+
+.pink {
+  background: pink;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.black {
+  background: black;
+}
+
+.magenta {
+  background: magenta;
+}
+
+.purple {
+  background: purple;
+}
+
+.red {
+  background: red;
+}
+
+.gray {
+  background: gray;
+}
+
+.orange {
+  background: orange;
+}
+
+.green {
+  background: green;
+}
