@@ -44,3 +44,35 @@
 .green {
   background: green;
 }
+
+.rounded-corners {
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -khtml-border-radius: 100px;
+    border-radius: 100px;
+}
+
+.rotated-ninty {
+  transform: rotate(0.125turn);
+}
+
+.skewed {
+  transform: skew(30deg, 20deg);
+}
+
+.ran {
+  transform: scale(0.5) translate(0%, 300%);
+  border-radius: 100px;
+}
+
+.bye {
+  animation: bye 4s linear;
+}
+
+@keyframes bye {
+  0% {transform: translate(0%, 0%);}
+  25% {transform: translate(0%, 100%);}
+  50% {transform: translate(-100%, 100%);}
+  75% {transform: translate(100%, 100%);}
+  100% {transform: translate(1000%, 100%);}
+}
